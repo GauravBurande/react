@@ -23,6 +23,15 @@ export default function TextForm(props) {
         setText(event.target.value);
     }
 
+    const handleCopy = () => {
+        navigator.clipboard.writeText(text);
+    }
+
+    const handleExtraSpaces = () => {
+        let newText = text.split(/[ ]+/);
+        setText(newText.join(" "));
+    }
+
     const [text, setText] = useState('');
     // text = 'new text' --> wrong way to set the text
     // setText('new text');    // CORRECT WAY
@@ -36,9 +45,11 @@ export default function TextForm(props) {
             <div className="mb-3 my-3">
               <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="7"></textarea>
             </div>
-            <button className="btn btn-primary mx-3" onClick={handleUpClick}>Convert to Uppercase</button>
-            <button className="btn btn-primary mx-3" onClick={handleLoClick}>Convert to Lowercase</button>
-            <button className="btn btn-primary mx-3" onClick={handleClearClick}>Clear text</button>
+            <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
+            <button className="btn btn-primary mx-1" onClick={handleLoClick}>Convert to Lowercase</button>
+            <button className="btn btn-primary mx-1" onClick={handleClearClick}>Clear text</button>
+            <button className="btn btn-primary mx-1" onClick={handleCopy}>Copy text</button>
+            <button className="btn btn-primary mx-1" onClick={handleExtraSpaces}>Remove extra spaces</button>
       </div>
     </div>
 
