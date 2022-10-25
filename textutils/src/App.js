@@ -2,8 +2,17 @@ import React, { useState } from "react";
 import "./App.css";
 import Alert from "./components/Alert";
 import Navbar from "./components/Navbar";
-// import TextForm from "./components/TextForm";
+import TextForm from "./components/TextForm";
 import About from "./components/About";
+
+// import { createRoot } from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  // Route,
+  // Link,
+} from "react-router-dom";
+
 
 function App() {
   const [mode, setMode] = useState('light');    // Whether dark mode is enabled or not
@@ -35,14 +44,32 @@ function App() {
     }
   }
 
+  const router = createBrowserRouter([
+    {
+      path: "/about",
+      element: (
+        <>
+          <Navbar title="textUtils" mode={mode} toggleMode={toggleMode}/>
+          <About/>
+        </>
+      ),
+    },
+    {
+      path: "/",
+      element: (
+        <>
+          <Navbar title="textUtils" mode={mode} toggleMode={toggleMode}/>,
+          <TextForm showAlert={showAlert} heading='Enter the text below to analyze' mode={mode}/>
+        </>
+      )
+    },
+  ]);
 
   return (
     <>
-      <Navbar title="textUtils" mode={mode} toggleMode={toggleMode}/>
       <Alert alert={alert}/>
       <div className="container my-3">
-      {/* <TextForm showAlert={showAlert} heading="Enter the text below to analyse" mode={mode}/> */}
-      <About/>
+      <RouterProvider router={router} />
       </div>
     </>
   );
