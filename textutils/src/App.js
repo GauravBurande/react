@@ -50,26 +50,29 @@ function App() {
       element: (
         <>
           <Navbar title="textUtils" mode={mode} toggleMode={toggleMode}/>
+          <div className="container my-3">
           <About/>
+          </div>
         </>
-      ),
+      )
     },
     {
       path: "/",
       element: (
         <>
           <Navbar title="textUtils" mode={mode} toggleMode={toggleMode}/>,
-          <TextForm showAlert={showAlert} heading='Enter the text below to analyze' mode={mode}/>
+          <TextForm showAlert={showAlert} heading='Enter the text below' mode={mode}/>
         </>
       )
     },
   ]);
+  
 
-  return (
-    <>
-      <Alert alert={alert}/>
-      <div className="container my-3">
+      return (
+      <>
       <RouterProvider router={router} />
+      <div className="container my-3">
+      <Alert alert={alert}/>
       </div>
     </>
   );
