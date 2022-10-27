@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 771,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Bloomberglaw.com"
+            },
+            "author": "Sarah Frier",
+            "title": "Meta Slams Apple for 'Undercutting Others' With Ad Policy (2) - Bloomberg Law",
+            "description": "Meta Platforms Inc. criticized Apple Inc. for changing its App Store terms to take a portion of social-media advertising revenue, saying the iPhone maker was “undercutting others in the digital economy.”",
+            "url": "https://news.bloomberglaw.com/tech-and-telecom-law/meta-slams-apple-for-undercutting-others-with-ad-policy-2",
+            "urlToImage": "https://news-cdn.bindg.com/indg/assets/news/images/Fallback-image.png",
+            "publishedAt": "2022-10-26T10:31:38Z",
+            "content": "Meta Platforms Inc.\r\n criticized Apple Inc.\r\n for changing its App Store terms to take a portion of social-media advertising revenue, saying the iPhone maker was undercutting others in the digital ec… [+397 chars]"
+        },
+        {
+            "source": {
+                "id": "ign",
+                "name": "IGN"
+            },
+            "author": "Ryan Dinsdale",
+            "title": "Microsoft Reportedly 'Regretted Missing Out' on Making Genshin Impact an Xbox Exclusive - IGN",
+            "description": "Microsoft reportedly passed on the chance to make Genshin Impact an Xbox console exclusive, something the company regretted after the game blew up.",
+            "url": "https://www.ign.com/articles/microsoft-regretted-missing-out-genshin-impact-xbox-exclusive",
+            "urlToImage": "https://assets-prd.ignimgs.com/2022/09/16/genshin-impact-nilou-1663367991060.jpg?width=1280",
+            "publishedAt": "2022-10-26T10:15:12Z",
+            "content": "Microsoft reportedly passed on the chance to make Genshin Impact an Xbox console exclusive, something the company regretted after the game blew up.\r\nAs reported by Reuters, sources familiar with the … [+1509 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GSMArena.com"
+            },
+            "author": "Michail",
+            "title": "Sony LinkBuds UC debut, all premium earbuds gain multipoint support - GSMArena.com news - GSMArena.com",
+            "description": "Sony also announced a new pair of LinkBuds S Earth Blue made from recycled water dispenser bottles.",
+            "url": "https://www.gsmarena.com/sony_linkbuds_uc_bring_microsoft_teams_certification-news-56289.php",
+            "urlToImage": "https://fdn.gsmarena.com/imgroot/news/22/10/sony-linkbuds-uc-ofic/-952x498w6/gsmarena_0000.jpg",
+            "publishedAt": "2022-10-26T10:14:01Z",
+            "content": "Sony announced a new pair of LinkBuds wireless earphones earlier today with Microsoft Teams certification. These are essentially the same earbuds that launched earlier this year but with a bundled US… [+1101 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "News18"
+            },
+            "author": "Tech Desk",
+            "title": "Apple Music, Apple TV+ And Apple One To Cost More, No Price Hike In India: All Details - News18",
+            "description": "Users in countries including the US and UK, will have to pay more to continue using Apple One, Apple Music and Apple TV+ services.",
+            "url": "https://www.news18.com/news/tech/apple-music-apple-tv-and-apple-one-to-cost-more-no-price-hike-in-india-all-details-6245683.html",
+            "urlToImage": "https://images.news18.com/ibnlive/uploads/2022/10/untitled-design-2022-10-26t153254.305-166677874416x9.jpg",
+            "publishedAt": "2022-10-26T10:09:46Z",
+            "content": "Owing to an increase in content catalog size and licensing fees, Apple has increased the price for its Apple One, Apple TV+, and Apple Music subscriptions in countries including the US and UK. Howeve… [+1657 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Tim Hardwick",
+            "title": "How to Disable Fitness+ Audio Workouts on Apple Watch - MacRumors",
+            "description": "Time to Walk and Time to Run are two features for Apple Fitness+ subscribers that offer audio stories from influential people that Apple Watch users...",
+            "url": "https://www.macrumors.com/how-to/disable-fitness-plus-audio-workouts-apple-watch/",
+            "urlToImage": "https://images.macrumors.com/t/EhTRZQTjdFojK3AuNoF7qEIMwvs=/1960x/article-new/2022/01/Apple-fitness-plus-winter-update-time-to-walkjpg.jpg",
+            "publishedAt": "2022-10-26T10:07:52Z",
+            "content": "Time to Walk and Time to Run are two features for Apple Fitness+ subscribers that offer audio stories from influential people that Apple Watch users can listen to with AirPods or other wireless headp… [+1742 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Geek Culture"
+            },
+            "author": "Si Jia",
+            "title": "'Pokémon Scarlet and Violet' Unveils Cute Ghost-Type Dog Called Greavard - Geek Culture",
+            "description": "Greavard, the new ghost-type dog Pokémon, is the focus of the most recent 'Pokémon Scarlet and Violet' trailer, and it's looking really cute.",
+            "url": "https://geekculture.co/pokemon-scarlet-and-violet-unveils-cute-ghost-type-dog-called-greavard/",
+            "urlToImage": "https://geekculture.co/wp-content/uploads/2022/10/pokemon-scarlet-violet-greavard.jpg",
+            "publishedAt": "2022-10-26T10:03:17Z",
+            "content": "The wilds of Paldea are where many new Pokémon lie in wait  not just in daytime, but at night as well. Greavard, the adorable ghost-type dog revealed in the newest Pokémon Scarlet and Violettrailer, … [+1627 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Macworld"
+            },
+            "author": "Roman Loyola",
+            "title": "Have you found the classic Mac OS Easter egg hiding in Ventura? - Macworld",
+            "description": "Clarus the Dogcow, an old friend to Mac users, reappears in the new Mac operating system. Moof!",
+            "url": "https://www.macworld.com/article/788250/macos-ventura-clarus-dogcow-page-setup.html",
+            "urlToImage": "https://www.macworld.com/wp-content/uploads/2022/10/claris-dogcow-new-old.jpg?quality=50&strip=all&w=1024",
+            "publishedAt": "2022-10-26T10:00:00Z",
+            "content": "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nIf you don’t remembe… [+1488 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sportskeeda"
+            },
+            "author": "Asmir P.",
+            "title": "Latest Fortnite XP glitch grants millions of XP and easy Battle Pass levels - Sportskeeda",
+            "description": "The newest Fortnite XP glitch allows you to level up incredibly fast. Like many others, this glitch must be done in Creative Mode and allows you to gain millions of XP by following this guide.",
+            "url": "https://www.sportskeeda.com/fortnite/latest-fortnite-xp-glitch-grants-millions-xp-easy-battle-pass-levels",
+            "urlToImage": "https://staticc.sportskeeda.com/editor/2022/10/cf29f-16667756316264-1920.jpg",
+            "publishedAt": "2022-10-26T09:51:00Z",
+            "content": "The newest Fortnite XP glitch allows you to level up incredibly fast. Like many others, this glitch must be done in Creative Mode and allows you to gain millions of XP by following this guide.\r\nEach … [+2902 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nintendo Life"
+            },
+            "author": "Ollie Reynolds",
+            "title": "No, Bandai Namco's New Fishing Game Isn't An Animal Crossing Spin-Off - Nintendo Life",
+            "description": "Sure looks like it, though",
+            "url": "https://www.nintendolife.com/news/2022/10/no-bandai-namcos-new-fishing-game-isnt-an-animal-crossing-spin-off",
+            "urlToImage": "https://images.nintendolife.com/ef0ee5cb5e5e4/1280x720.jpg",
+            "publishedAt": "2022-10-26T09:45:00Z",
+            "content": "Subscribe to Nintendo Life on YouTube\r\nWe all love a bit of fishing in our video games, right? Well, you're in luck, because Bandai Namco Entertainment is about to launch Ace Angler: Fishing Spirits … [+2444 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "SamMobile"
+            },
+            "author": "SamMobile",
+            "title": "Galaxy Z Fold 4 gets second One UI 5.0 beta update - SamMobile - Samsung news",
+            "description": "Last week, Samsung released the One UI 5.0 beta update to the Galaxy Z Flip 4 and the Galaxy Z ...",
+            "url": "https://www.sammobile.com/news/galaxy-z-fold-4-one-ui-5-0-beta-2-update/",
+            "urlToImage": "https://www.sammobile.com/wp-content/uploads/2022/10/Galaxy-Z-Fold-4-Android-13-One-UI-5-720x405.jpg",
+            "publishedAt": "2022-10-26T09:31:00Z",
+            "content": "Last week, Samsung released the One UI 5.0 beta update to the Galaxy Z Flip 4 and the Galaxy Z Fold 4. Now, the company has released the second One UI 5.0 beta update to the Galaxy Z Fold 4 in India.… [+1124 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Push Square"
+            },
+            "author": "Liam Croft",
+            "title": "Nearly 2000 PS5, PS4 Games Going Cheap in New PS Store Sale - Push Square",
+            "description": "Tales of Arise! Trails of Cold Steel! ANNO!",
+            "url": "https://www.pushsquare.com/news/2022/10/nearly-2000-ps5-ps4-games-going-cheap-in-new-ps-store-sale",
+            "urlToImage": "https://images.pushsquare.com/45b8de57b30b4/1280x720.jpg",
+            "publishedAt": "2022-10-26T09:30:00Z",
+            "content": "PS Store sales are still important if you're not subscribed to PS Plus Extra or PS Plus Premium, so Wednesday marks a big day for bargain hunters. The latest set of promotions puts almost 2,000 PS5, … [+764 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MyBroadband"
+            },
+            "author": "https://www.facebook.com/mybroadband",
+            "title": "Age of Empires launching on Xbox and smartphones - MyBroadband",
+            "description": "Age of Empires II: Definitive Edition will land on Xbox consoles and Cloud Gaming at the end of January 2023.",
+            "url": "https://mybroadband.co.za/news/gaming/466135-age-of-empires-launching-on-xbox-and-smartphones.html",
+            "urlToImage": "https://mybroadband.co.za/news/wp-content/uploads/2022/10/Age-of-Empires-IV.jpg",
+            "publishedAt": "2022-10-26T09:29:12Z",
+            "content": "Xbox Games Studio and World’s Edge have revealed that Age of Empires is coming to iOS, Android, Xbox consoles, and Xbox Cloud Gaming.\r\nThe companies announced Age of Empires’ 25th-anniversary event o… [+1084 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GSMArena.com"
+            },
+            "author": "Peter",
+            "title": "Early MediaTek Dimensity 9200 test on AnTuTu shows an impressive generational improvement - GSMArena.com news - GSMArena.com",
+            "description": "The Dimensity 9000 was the first to post a score of 1 million points, the 9200 will surpass it with a Cortex-X3 CPU core and Immortalis-G715 GPU.",
+            "url": "https://www.gsmarena.com/early_mediatek_dimensity_9200_test_on_antutu_shows_an_impressive_generational_improvement-news-56288.php",
+            "urlToImage": "https://fdn.gsmarena.com/imgroot/news/22/10/dimensity-9200-antutu-benchmark/-952x498w6/gsmarena_000.jpg",
+            "publishedAt": "2022-10-26T09:21:01Z",
+            "content": "Around this time last year a Dimensity-powered phone posted the first 1 million points result on AnTuTu. That was the then-new Dimensity 9000 chip and now its successor is on the horizon, which is te… [+2019 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Quint"
+            },
+            "author": "Raajwrita Dutta",
+            "title": "Garena Free Fire Redeem Codes Today: Win Rewards and Freebies on 26 October 2022 - The Quint",
+            "description": "The Garena Free Fire Redeem Codes for today, Wednesday, 26 October 2022 can be claimed from reward.ff.garena.com. Know how to win rewards and freebies in the Free Fire game.",
+            "url": "https://www.thequint.com/tech-and-auto/tech-news/garena-free-fire-redeem-codes-26-october-2022-how-to-win-rewards-and-freebies-check-website",
+            "urlToImage": "https://images.thequint.com/thequint%2F2022-10%2Fee520e17-48df-4479-939a-11ff9688d742%2Fgarena.jpg?rect=0%2C0%2C1440%2C756&w=1200&auto=format%2Ccompress&ogImage=true&enlarge=true",
+            "publishedAt": "2022-10-26T09:09:16Z",
+            "content": "The Garena Free Fire Redeem Codes for today, Wednesday, 26 October 2022 are available on the official redemption website of the game. Registered players can claim any one of the codes to enjoy free w… [+606 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Indian Express"
+            },
+            "author": "Tech Desk",
+            "title": "PlayStation 5 DualSense Edge controller: Release date, features, and everything you need to know - The Indian Express",
+            "description": "The Sony DualSense Edge wireless controller is one of the most customisable controllers available for PlayStation 5.",
+            "url": "https://indianexpress.com/article/technology/gadgets/playstation-5-dualsense-edge-controller-pre-order-price-features-8230809/",
+            "urlToImage": "https://images.indianexpress.com/2022/10/Sony-DualSense-Edge-Wireless-controller.jpg",
+            "publishedAt": "2022-10-26T09:06:22Z",
+            "content": "Back in August during the Gamescom Opening Night Live event, Sony announced its DualSense Edge wireless controller for the PlayStation 5. The new version of the controller offers more customisation a… [+1420 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Video Games Chronicle"
+            },
+            "author": "Chris Scullion",
+            "title": "Wo Long: Fallen Dynasty gets a confirmed release date - Video Games Chronicle",
+            "description": "Team Ninja's upcoming action game will be coming in early 2023…",
+            "url": "https://www.videogameschronicle.com/news/wo-long-fallen-dynasty-gets-a-confirmed-release-date/",
+            "urlToImage": "https://www.videogameschronicle.com/files/2022/10/wo-long.jpg",
+            "publishedAt": "2022-10-26T09:01:23Z",
+            "content": "Team Ninja has confirmed the release date for its upcoming action game Wo Long: Fallen Dynasty.\r\nThe game is due to be released on March 3, 2023 on Xbox Series X/S, Xbox One, PS5, PS4 and PC (via Win… [+1353 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Lisa Eadicicco",
+            "title": "Apple, Google and Samsung Have Very Different Visions for the Tablet - CNET",
+            "description": "Commentary: Tablets aren't new, but their role in our lives keeps changing.",
+            "url": "https://www.cnet.com/tech/computing/apple-google-and-samsung-have-very-different-visions-for-the-tablet/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/9164c214d120417858dc4caf13422f9178f1bc4a/hub/2022/10/19/4c4f530f-b6a1-4794-b858-d1049cb9f3e6/ipad-10th-gen-all-colors.png?auto=webp&fit=crop&height=630&width=1200",
+            "publishedAt": "2022-10-26T09:00:07Z",
+            "content": "Smartphones are tiny, complex computers, but the appeal behind them is simple. We rely on them for everything from communicating to shopping, getting directions, banking, working and gaming. The same… [+12129 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Andrew Krok",
+            "title": "The 2023 Jaguar F-Type and the Perils of Growing Up - CNET",
+            "description": "Things never stay the way you may like them, but moving on is part of life.",
+            "url": "https://www.cnet.com/roadshow/news/2023-jaguar-f-type-review/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/697ed1b3183064c5b1eb77c305f9b48b716acce5/hub/2022/10/24/6ad54d72-756e-4c68-ab1a-d10c5a51b80a/f-type-ogi.jpg?auto=webp&fit=crop&height=630&width=1200",
+            "publishedAt": "2022-10-26T09:00:02Z",
+            "content": "The year is 2013. I'm settling into my first auto-writing job in a small media company outside of Chicago. I can hear something coming down the road, well before I ever actually see it, the bass rumb… [+6337 chars]"
+        },
+        {
+            "source": {
+                "id": "mashable",
+                "name": "Mashable"
+            },
+            "author": "StackCommerce",
+            "title": "Sharpen your cooking skills with this top-rated Santoku knife on sale - Mashable",
+            "description": "Slice, dice, mince, and more with this chef's knife.",
+            "url": "https://mashable.com/deals/oct-26-santoku-knife",
+            "urlToImage": "https://helios-i.mashable.com/imagery/articles/038KVUbR1V99U6mrkWog2vZ/hero-image.fill.size_1200x675.v1666707655.jpg",
+            "publishedAt": "2022-10-26T09:00:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "TrustedReviews"
+            },
+            "author": "Jon Mundy",
+            "title": "Google Pixel 8 Pro prototype spotted with improved fingerprint sensor - TrustedReviews",
+            "description": "Evidence of a Google Pixel 8 Pro prototype being tested appears to have emerged, suggesting a switch to an ultrasonic fingerprint sensor",
+            "url": "https://www.trustedreviews.com/news/google-pixel-8-pro-prototype-spotted-with-improved-fingerprint-sensor-4277293",
+            "urlToImage": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/10/pixel7pro-1-3.jpeg",
+            "publishedAt": "2022-10-26T08:56:19Z",
+            "content": "Evidence of a prototype Google Pixel 8 Pro of sorts appears to have been spotted in testing, with one notable hardware improvement.\r\nWe may have only just received the Pixel 7 and Pixel 7 Pro, but th… [+1642 chars]"
+        }
+    ]
+}
