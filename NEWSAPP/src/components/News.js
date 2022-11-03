@@ -16,25 +16,32 @@ export class News extends Component {
     category: PropTypes.string,
   }
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       articles: [],
       loading: false,
       page: 1,
       lastPage: 1
     }
+
+    document.title = `${this.props.category} - newsDonkey`;
   }
 
   async updatePage() {
-    const url = `https://newsapi.org/v2/top-headlines?language=en&category=${this.props.category}&country=${this.props.country}&apiKey=d627e38776c14c24834441d2da071a07&page=${this.state.page}&pagesize=${this.props.pageSize}`;
+    this.props.setProgress(10);
+    const url = `https://newsapi.org/v2/top-headlines?language=en&category=${this.props.category}&country=${this.props.country}&apiKey=${this.props.apiKey}&page=${this.state.page}&pagesize=${this.props.pageSize}`;
     let data = await fetch(url);
+    this.props.setProgress(50);
     let parsedData = await data.json();
+    this.props.setProgress(70);
 
     this.setState({
       articles: parsedData.articles,
       lastPage: Math.floor(parsedData.totalResults / this.props.pageSize)
     })
+
+    this.props.setProgress(100);
   }
 
   componentDidMount() {
@@ -58,11 +65,11 @@ export class News extends Component {
   render() {
     return (
       <div className='container my-3'>
-        <h1>Top Headlines</h1>
+        <h1>Top {this.props.category==="general"?'': this.props.category} Headlines</h1>
         <div className="row">
           {this.state.articles.map((element) => {
             return <div className="col-md-3" key={element.url}>
-              <NewsItem title={element.title ? element.title : ''} description={element.description ? element.description : ''} imgUrl={element.urlToImage} newsUrl={element.url} author={element.author ? element.author : 'Unknown Author'} />
+              <NewsItem title={element.title ? element.title : ''} description={element.description ? element.description : ''} imgUrl={element.urlToImage?element.urlToImage:"https://staticg.sportskeeda.com/editor/2022/11/92dd1-16674272943139-1920.jpg"} newsUrl={element.url} author={element.author ? element.author : 'Unknown Author'} />
             </div>
           })}
         </div>
