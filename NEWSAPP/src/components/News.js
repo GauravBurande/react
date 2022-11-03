@@ -65,7 +65,7 @@ export class News extends Component {
   render() {
     return (
       <div className='container my-3'>
-        <h1>Top {this.props.category==="general"?'': this.props.category} Headlines</h1>
+        <h1 style={{marginTop: '90px'}}>Top {this.props.category==="general"?'': this.props.category} Headlines</h1>
         <div className="row">
           {this.state.articles.map((element) => {
             return <div className="col-md-3" key={element.url}>
