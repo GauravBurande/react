@@ -9,10 +9,10 @@ const port = 5500;
 app.use(express.json());
 
 // Available routes
-app.use('/api/auth/', require('./routes/auth'));
+app.use('/api/auth', require('./routes/auth'));
 app.use('/api/notes', require('./routes/notes'));
 
 app.listen(port, ()=>{
-    console.log(`example app listening at http://localhost:${port}`)
+    console.log(`notro app listening at http://localhost:${port}`)
 })
 
