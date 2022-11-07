@@ -1,6 +1,4 @@
 import React from 'react'
-// import { useEffect, useContext } from 'react'
-// import noteContext from '../context/notes/NoteContext'
 
 const About = () => {
   return (
