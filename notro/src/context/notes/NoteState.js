@@ -5,6 +5,15 @@ const NoteState = (props) => {
   const host = 'http://localhost:5500'
   const notesInitial = []
   const [notes, setNotes] = useState(notesInitial)
+  const [alert, setAlert] = useState('')
+
+  // set alert
+  const showAlert = (action)=>{
+    setAlert(`Your note has been ${action}!`)
+    setTimeout(() => {
+      setAlert(null)
+    }, 1500);
+  }
 
   // Get all notes
   const fetchNotes = async () => {
@@ -33,6 +42,7 @@ const NoteState = (props) => {
       body: JSON.stringify({ title, description, tag })
     });
     const json = await response.json()
+    showAlert('added')
     fetchNotes()
     console.log(json)
   }
@@ -48,6 +58,7 @@ const NoteState = (props) => {
       },
     });
     const json = await response.json()
+    showAlert('deleted')
     fetchNotes()
     console.log(json)
   }
@@ -66,22 +77,24 @@ const NoteState = (props) => {
       body: JSON.stringify({ title, description, tag })
     });
 
-    const json = response.json()
+    const json = await response.json()
+    showAlert('updated')
+    fetchNotes()
     console.log(json)
 
     // Logic to edit in client
-    for (let index = 0; index < notes.length; index++) {
-      const element = notes[index];
-      if (element._id === id) {
-        element.title = title
-        element.description = description
-        element.tag = tag
-      }
-    }
+    // for (let index = 0; index < notes.length; index++) {
+      // const element = notes[index];
+      // if (element._id === id) {
+        // element.title = title
+        // element.description = description
+        // element.tag = tag
+      // }
+    // }
   }
 
   return (
-    <NoteContext.Provider value={{ notes, fetchNotes, addNote, deleteNote, editNote }}>
+    <NoteContext.Provider value={{ notes, alert, fetchNotes, addNote, deleteNote, editNote }}>
       {props.children}
     </NoteContext.Provider>
   )
